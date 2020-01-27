@@ -1,4 +1,8 @@
 .editorconfig
 Makefile
-Pipfile
-Pipfile.lock
+./docker
+./awsct_cli.egg-info
+./build
+./dist
+./LICENSE
+README.md

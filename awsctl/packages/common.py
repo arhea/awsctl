@@ -220,8 +220,11 @@ class PackageBase(object):
         with open("/etc/os-release") as f:
             info = {}
             for line in f:
-                k,v = line.rstrip().split("=")
-                info[k] = v.strip('"')
+                line = line.rstrip()
+
+                if line != "":
+                    k,v = line.split("=")
+                    info[k] = v.strip('"')
 
         return info
     

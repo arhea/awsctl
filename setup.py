@@ -18,7 +18,7 @@ URL = "https://github.com/arhea/awsctl"
 EMAIL = "alex.rhea@gmail.com"
 AUTHOR = "Alex Rhea"
 REQUIRES_PYTHON = ">=3.7.0"
-VERSION = "0.3.0"
+VERSION = "0.4.0"
 
 # What packages are required for this module to be executed?
 REQUIRED = ["click", "colorama", "requests"]

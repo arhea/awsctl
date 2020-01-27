@@ -5,7 +5,7 @@ ENV LANG C.UTF-8
 
 RUN yum update -y \
     && yum install -y python3 python3-pip \
-    && pip3 install pipenv \
+    && pip3 install --upgrade pipenv setuptools \
     && mkdir -p /usr/src/app
 
 WORKDIR /usr/src/app

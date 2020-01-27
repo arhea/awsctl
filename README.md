@@ -10,6 +10,18 @@ pip install --upgrade awsctl-cli
 # centos based systems
 yum update -y && yum install -y python3 python3-pip
 pip install --upgrade awsctl-cli
+
+# install cloudwatch
+awsctl install cloudwatch
+
+# install cloudwatch logs
+awsctl install cloudwatch-logs --region=us-east-1 --config=s3://my-config-bucket/config
+
+# install inspector
+awsctl install inspector
+
+# install systems manager
+awsctl install ssm
 ```
 
 ## Supported Agents

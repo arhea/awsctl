@@ -44,5 +44,5 @@ Due to different installation methods we only support a subset of operating syst
 | Debian | :white_check_mark: |
 | CentOS | :white_check_mark: |
 | Red Hat | :white_check_mark: |
-| Ubuntu 16.04 | :x: |
+| Ubuntu 16.04 | :white_check_mark: |
 | Ubuntu 18.04 | :white_check_mark: |

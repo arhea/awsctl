@@ -20,3 +20,5 @@ test:
 	docker build -t arhea/awsctl-debian:latest -f ./docker/Dockerfile.debian .
 	docker build -t arhea/awsctl-ubuntu1604:latest -f ./docker/Dockerfile.ubuntu1604 .
 	docker build -t arhea/awsctl-ubuntu1804:latest -f ./docker/Dockerfile.ubuntu1804 .
+	docker build -t arhea/awsctl-amazonlinux:latest -f ./docker/Dockerfile.amazonlinux .
+	docker build -t arhea/awsctl-centos:latest -f ./docker/Dockerfile.centos .
